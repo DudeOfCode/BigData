@@ -1,3 +1,16 @@
+
+# Tools And Programming languages Used
+Solidity: This was used to handle the bac-end of the decentralized storage app. It is the code that was deploye to create the cloud smart contract
+ReactJs(Javascript): This was used for the front end, it connected the frontend to the backend (abi) and it also provided the dependencies needed to run the app (npm start)
+css: this was used for the styling and designing of different components of the jsx(the html present in the return statement in react)
+html:This was used in the react app to show and make components like input field,radio and button.Without it nothin will be displayed on the screen. 
+npm: This was used to install various dependencies like ipfs-httpi-client and rectRouter
+nodeJs command prompt: The command prompt used to download the javascript dependencies
+Visual studio code: The IDE used to write the code in related folders
+JSON: This contained the abi which is like a summary of the solidity code, it was gotten after the app was compiled
+Metamask: The web3 provider that was used to deploy and interact with the smart contract.
+ethers: this is a web3 api that helped to directly connect the ABI in th json to the web3 provider and the Javascript code(reactJs)
+ # Description
 # About The BigData App
 This is a cost effective decentralized cloud storage app that is meant to store files (images,videos and texts) in a smart contract in such a way that users can have access to them at any time they want without having to get permission from any third party body.It is sort of like a permanent archive for files and it was deployed to the polygon mumbai testnet.
 # How The App Works
@@ -9,7 +22,8 @@ Get the code and try the app out by navigating to the directory of the app,copyi
 ### 'npm install'
 ### 'npm start'
 THis may not be a very good documentation but please try the app out.
-# Description
+
+# Frontend  
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
