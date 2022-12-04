@@ -1,5 +1,5 @@
 
-# Tools And Programming languages Used
+# Tools And Programming Languages Used
 ### Solidity
 ### Hardhat
 ### Visual studio code (VS code)
@@ -14,7 +14,7 @@
 ### PNG files
 ### Browsers(chrome,mozilla and edge)
 
-# How They Were being Used
+# How They Were Being Used
 #### Solidity: This was used to handle the back-end of the decentralized storage app. It is the code that was deployed to create the cloud storage smart contract
 #### Hardhat: This was used to compile and deploy the solidity code to the polygon mumbai testnet
 #### ReactJs(Javascript): This was used for the front end, it made it possinle to connect the frontend to the backend (abi) and it also provided the dependencies needed to run the app (npm start)
