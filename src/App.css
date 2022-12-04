@@ -281,8 +281,7 @@ h2{
 }
 .about-us{
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: column; 
 }
 .about-us > p{
   margin: 2em 0;
@@ -352,6 +351,21 @@ button{
   align-items: center;
   justify-content: center;
 }
+a{
+  color: white;
+  
+}
+h4{
+  margin: 0;
+}
+li{
+  padding-bottom:1em ;
+}
+a:hover{
+  border: none;
+  border-bottom: 2px solid skyblue;
+  transition: ease-in-out 0.05s;
+}
 @media screen and (min-width: 650px) {
   footer{
     display: flex;
@@ -359,7 +373,22 @@ button{
    justify-content: space-around;
     
   }
+.div-min{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+  margin: 1em 0;
+}
+.div-min > div > img{
+  width:45%;
+}
+.div-min > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
   .hero-main{
     display: flex;
     flex-direction: row;
@@ -395,9 +424,15 @@ button{
 width: 50%;
   }
  h2{
-  text-align: left;
+  text-align: left !important;
  }
 .about-us{
+  width: 50%;
+}
+.who{
+  width: 100%;
+}
+.div-min > div, .div-min > p{
   width: 50%;
 }
 .card-container{
@@ -409,7 +444,9 @@ width: 50%;
   margin: 0;
 }
   .main{
-    text-align: center;
+    text-align: left !important;
+    margin: 2em 0;
+    text-transform: uppercase;
   }
  
   .about-us > p{
@@ -423,6 +460,7 @@ width: 50%;
     font-size: 4em;
   }
   .benefits{
+    margin: 2em 0;
     flex-direction: row;
     flex-wrap:wrap ;
   }
@@ -471,8 +509,10 @@ width: 50%;
       color: white;
     }
     .about-container{
+      margin: 2em 0;
       display: flex;
       justify-content: space-between;
+      align-items: center;
       
       }
       .about-container > .hero-img{
@@ -514,5 +554,37 @@ width: 50%;
     .uploadbtn{
       display: flex;
       justify-content: space-between;
+    }
+    /* about-us */
+    .abtcontain{
+      display: flex;
+    width: 100%;
+    }
+    .bd-img{
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .bd-img > img{
+      width: 75%;
+      border-radius: 20px;
+    }
+    .BD{
+     width: 50%;
+    }
+    .bd{
+      display: flex;
+      flex-direction: column;
+    width: 100%;
+    align-items: center;
+      justify-content: center;
+    }
+    .bd > div{
+      
+      width: 60%;
+    }
+    .bd >  div > h1{
+    text-align: center;
     }
 }

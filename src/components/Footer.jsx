@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <div>
@@ -10,30 +10,30 @@ function Footer() {
     <div>
       
       <ul>
-        <li> <h6 class="foot">Product</h6></li>
-        <li class="fl">Overview</li>
-        <li class="fl">Pricing</li>
+        <li> <h4 class="foot">Product</h4></li>
+        <li class="fl"><Link to='/'>Overview</Link></li>
+        <li class="fl"><Link to='*'>Pricing</Link></li>
     
-        <li class="fl">Integrations</li>
+        <li class="fl"><Link to='*'>Integrations</Link></li>
       </ul>
 
     </div>
     <div>
     
       <ul>
-        <li> <h6 class="foot">Company</h6></li>
-        <li class="fl">About</li>
-        <li class="fl">Team</li>
-        <li class="fl">Careers</li>
+        <li> <h4 class="foot">Company</h4></li>
+        <li class="fl"><Link to='/'>About</Link></li>
+        <li class="fl"><Link to='*'>Integrations</Link></li>
+        <li class="fl"><Link to='*'>Careers</Link></li>
       </ul>
 
     </div>
     <div>
 
       <ul>
-        <li><h6 class="foot">Connect</h6></li>
-        <li class="fl">Contact</li>
-        <li class="fl">LinkedIn</li>
+        <li><h4 class="foot">Connect</h4></li>
+        <li class="fl"><Link to='*'>Integrations</Link></li>
+        <li class="fl"><Link to='*'>LinkendIn</Link></li>
       </ul>
     </div>
   </footer>

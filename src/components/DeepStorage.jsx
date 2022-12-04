@@ -6,7 +6,7 @@ import { create } from "ipfs-http-client";
 const ipfsUpload = new create("https://ipfs.infura.io:5001/api/v0");
 const ipfsUploads = new create("http://localhost:5001");
 
-const webpack = require("webpack");
+
 const Dstorage = require("../ERC20ABI.json");
 export let Buffer = require("buffer").Buffer;
 export let process = require("process/browser");
@@ -135,18 +135,19 @@ const DeepStorage = () => {
 
           <div className="file">
             <label> Select the type of file you want to store?</label>
-            <div id="setType" required>
+            <div  required>
               <input
                 type="radio"
                 name="radio"
-                id="img"
+                id="setType"
+                className="Image"
                 value="Image"
                 radioGroup="hello"
               />{" "}
               <em>Image</em>
-              <input type="radio" name="radio" id="file" /> <em>File</em>
-              <input type="radio" name="radio" id="audio" /> <em>Audio</em>
-              <input type="radio" name="radio" id="video" /> <em>Video</em>
+              <input type="radio" name="radio"  id="setType" className="Document" /> <em>File</em>
+              <input type="radio" name="radio"  id="setType" className="Audio" /> <em>Audio</em>
+              <input type="radio" name="radio" className="Video" id="setType" /> <em>Video</em>
             </div>
           </div>
 

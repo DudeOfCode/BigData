@@ -66,12 +66,12 @@ export default function Hero() {
 
    
       <div className="main">
-        <h2>The decentralized way to store data is here</h2>
+        
         <div className="typewriter">
-          <p className="typewriter">
-            Storing data could never be more,{" "}
-            <ReactTypingEffect text={["secure.", "reliable.", "efficent."]} />
-          </p>
+          <h2 className="typewriter">
+            {" "}
+            <ReactTypingEffect text={['The decentralized way to store data is here']} />
+          </h2>
         </div>
       </div>
       <div className="about-container">
@@ -86,31 +86,7 @@ export default function Hero() {
           of your data via
           <b> decentralization.</b>{" "}
         </p>
-        <p className="fact">
-          According to a report published by Holon{" "}
-          <q>Web 3 storage could solve the global data crisis</q> <br /> It also
-          went futher to say{" "}
-          <q>
-            The current centralized data storage model won’t be able to handle
-            future data demand
-          </q>
-        </p>
-        <p className="fact">
-          According to an article by Akash Takyar{" "}
-          <q>
-            Web 3 gives users full control over thier data througth
-            decentralization but they retain full acces to storage and
-            communication
-          </q>
-        </p>
-        <p>
-          Centralized network can be censored or mutated. As hopes are on the
-          storage provider to secure data, but we can't always be sure that the
-          operator would live up to this; as anything can happen. Hacking, data
-          policy changes, corrupted sotware and many more. <br />
-          That's why we've brought a solution that keeps you in control to help
-          you secure your future by storing your data
-        </p>
+     
       </div>
       <div className="hero-image">
   <img src={herosec} alt="hero-sec" className="hero-sec"/>
@@ -119,7 +95,10 @@ export default function Hero() {
       <div className="benefits-container">
         <div className="benefits">
         <div>
-                  <h2>Why Choose Us?</h2>
+        <AnimationOnScroll animateIn="animate__flipInY">
+          {" "}
+          <h2>Why Choose Us?</h2>
+        </AnimationOnScroll>
                 </div>
           <div className="card-container">
           

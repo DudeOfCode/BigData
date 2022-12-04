@@ -9,6 +9,14 @@ import Upload from "./components/Upload";
 import Signup from "./components/Signup";
 import Footer from "./components/Footer";
 import DeepStorage from "./components/DeepStorage";
+import AboutUs from "./components/AboutUs";
+import Blog from "./components/Blog";
+
+function Comingsoon() {
+  <h1>
+    This part of the site is currently not available. Do check back later! ;)
+  </h1>
+}
 
 function App() {
   return (
@@ -22,6 +30,9 @@ function App() {
           <Route path="/Upload" element={<Upload />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/DeepStorage" element={<DeepStorage />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/Blog" element={<Blog />} />
+          <Route path="*" element={<Comingsoon />} />
         </Routes>
         
       </div>
