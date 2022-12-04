@@ -28,7 +28,7 @@
 #### ethersJs: this is a web3 api that helped to directly connect the ABI in th json to the web3 provider and the Javascript code(reactJs)
 #### PNG files: served as the logo and background images
 #### Browsers: The browsers were used to test the app using the http://localhost:3000.
-#### Note:Edge will not display the links of the files when the user clicks on preview.
+#### Note:Edge will not display the links of the files when the user clicks on preview.Use chrome or mozilla to test the app.
 
 # Description
 
@@ -45,7 +45,7 @@ Get the code and try the app out by navigating to the directory of the app,copyi
 ### 'npm start'
 
 #### This may not be a very good documentation but please try the app out.
-#### Make sure you connect your metamask account to the polygon mumbai testnet to avoid the app throwing any errors at you.
+#### Make sure you connect your metamask account to the polygon mumbai testnet to prevent the app from throwing any errors at you.
 # Frontend  
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
