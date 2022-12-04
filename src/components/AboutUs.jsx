@@ -116,12 +116,12 @@ const AboutUs = () => {
   <img src={first} alt="first" />
   </div>
  </div>
+ <FAQ />;
 
  </>
 
-
   );
-  <FAQ />;
+ 
 };
 
 export default AboutUs;
