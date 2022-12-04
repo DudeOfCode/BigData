@@ -4,9 +4,7 @@ function Footer() {
   return (
     <div>
           <footer>
-    {/* <div class="log"> */}
-      {/* <img src="" alt="" /> */}
-    {/* </div>  */}
+  
     <div>
       
       <ul>
@@ -22,7 +20,7 @@ function Footer() {
     
       <ul>
         <li> <h4 class="foot">Company</h4></li>
-        <li class="fl"><Link to='/'>About</Link></li>
+        <li class="fl"><Link to='/AboutUs'>About</Link></li>
         <li class="fl"><Link to='*'>Integrations</Link></li>
         <li class="fl"><Link to='*'>Careers</Link></li>
       </ul>

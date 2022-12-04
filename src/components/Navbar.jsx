@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import logo from './tools/b.png'
 function Navbar() {
   const [list, setList] = useState(false);
 
@@ -12,7 +12,7 @@ function Navbar() {
             {" "}
             <div className="img-logo">
             <img
-              src="https://cdn-icons-png.flaticon.com/128/5448/5448104.png"
+              src={logo}
               alt="logo"
               className="logo"
             />

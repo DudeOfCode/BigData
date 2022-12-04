@@ -361,6 +361,9 @@ h4{
 li{
   padding-bottom:1em ;
 }
+.logo{
+  width: 120px;
+}
 a:hover{
   border: none;
   border-bottom: 2px solid skyblue;

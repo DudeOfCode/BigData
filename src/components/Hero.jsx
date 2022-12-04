@@ -48,7 +48,7 @@ export default function Hero() {
         <div className="hero">
           <h1 className="animate__animated animate__backInLeft hero">
             Protect your data with{" "}
-            <span className="hero-text">Data Technologies</span>
+            <span className="hero-text">Big Data</span>
           </h1>
           <p className=" animate__animated animate__fadeIn">
             A decentralized web3 solution that helps you <b>Store</b>{" "}

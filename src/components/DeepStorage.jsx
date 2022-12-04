@@ -58,7 +58,7 @@ const DeepStorage = () => {
       }
     } else {
       setError(
-        "Please connect to the internet if connected ensure you have metamsk installed"
+        "Please connect to the internet. If connected, ensure you have metamsk installed."
       );
     }
   };
