@@ -13,7 +13,7 @@ export let process = require("process/browser");
 const projectId = "2I9pFSAD08o7bYa3XqY2qekLJXf";
 const projectSecret = "eb8c935ffd5f6d3fe4f8db672608b1ac";
 const DeepStorage = () => {
-    const contractAddress = "0x126D6Ea9ba3D0968c5BF49830c8BbcEEED846F60";
+    const contractAddress = "0x483914857Abd5A63111854FFDF4cb1f1087A1120";
     // const contractAddress = "";
     const [errorMessage, setError] = useState(null);
     const [defaultAccount, setDefaultAccount] = useState(null);
