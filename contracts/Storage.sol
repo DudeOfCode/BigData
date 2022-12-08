@@ -33,7 +33,7 @@ contract DStorage {
         fileInfo.fileName = _fileName;
         fileInfo.fileType = _fileType;
         fileInfo.filePath = string(
-            abi.encodePacked("https://ipfs.infura.io/ipfs/", _filePath)
+            abi.encodePacked("https://ipfs.io/ipfs/", _filePath)
         );
         fileInfo.saver = payable(msg.sender);
         aFile[id] = fileInfo;
